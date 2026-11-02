@@ -1,0 +1,6 @@
+method,auroc_unseen_mean,auroc_unseen_std,auroc_seen_mean,auroc_seen_std,far_seen_mean,far_seen_std,far_unseen_mean,far_unseen_std,tpr_unseen_mean,tpr_unseen_std,far_after_switch_mean,far_after_switch_std,regime_probe_acc_mean,regime_probe_acc_std
+FiLM-Inv (ours),0.635,0.211,0.885,0.019,0.012,0.001,1.0,0.0,1.0,0.0,1.0,0.0,0.872,0.028
+FiLM only,0.495,0.024,0.993,0.002,0.012,0.002,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0
+FiLM + contrastive (no GRL),0.573,0.056,0.968,0.001,0.012,0.001,1.0,0.0,1.0,0.0,1.0,0.0,0.594,0.079
+FiLM + GRL (no contrastive),0.565,0.018,0.924,0.028,0.012,0.001,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0
+No FiLM (contrastive + GRL),0.471,0.164,0.766,0.019,0.012,0.002,1.0,0.0,0.993,0.013,1.0,0.0,0.958,0.009
