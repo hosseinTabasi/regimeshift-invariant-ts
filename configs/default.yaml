@@ -1,0 +1,8 @@
+# RegimeShift-Invariant: few intuitive knobs
+n_regimes: 6        # how many operating regimes to discover from operating settings
+latent_dim: 8       # size of the invariant representation
+invariance: 0.5     # weight of contrastive invariance loss
+confusion: 0.3      # weight of adversarial regime-confusion loss (gradient reversal)
+false_alarm_target: 0.01   # threshold = (1 - this) quantile of training normal scores
+epochs: 20
+seeds: [0, 1, 2]
