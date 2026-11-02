@@ -1,0 +1,7 @@
+method,0,1,2,3,4,5
+DANN AE (GRL only),0.983,0.537,0.318,0.06,0.533,0.785
+FiLM-Inv (ours),0.513,0.778,0.751,0.785,0.623,0.359
+Global norm + AE,1.0,0.347,0.796,0.077,0.59,0.36
+Global norm + PCA-SPE,0.962,0.899,0.407,0.093,0.499,0.389
+Per-regime norm + AE,0.292,0.185,0.5,0.908,0.642,0.845
+Per-regime norm + AE (transductive target stats),0.699,0.958,0.746,0.986,0.86,0.62
