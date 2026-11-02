@@ -1,0 +1,7 @@
+method,auroc_unseen_mean,auroc_unseen_std,auroc_seen_mean,auroc_seen_std,far_seen_mean,far_seen_std,far_unseen_mean,far_unseen_std,tpr_unseen_mean,tpr_unseen_std,far_after_switch_mean,far_after_switch_std,regime_probe_acc_mean,regime_probe_acc_std
+Global norm + PCA-SPE,0.541,0.01,0.736,0.002,0.011,0.001,0.5,0.0,0.511,0.004,0.5,0.0,1.0,0.0
+Global norm + AE,0.528,0.049,0.994,0.002,0.013,0.002,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0
+Per-regime norm + AE,0.562,0.044,0.811,0.008,0.011,0.001,1.0,0.0,1.0,0.0,1.0,0.0,0.422,0.003
+Per-regime norm + AE (transductive target stats),0.812,0.005,0.811,0.008,0.011,0.001,0.017,0.01,0.077,0.1,0.017,0.011,0.274,0.007
+DANN AE (GRL only),0.536,0.051,0.9,0.027,0.012,0.001,0.948,0.091,0.99,0.018,0.948,0.091,1.0,0.0
+FiLM-Inv (ours),0.635,0.211,0.885,0.019,0.012,0.001,1.0,0.0,1.0,0.0,1.0,0.0,0.872,0.028
